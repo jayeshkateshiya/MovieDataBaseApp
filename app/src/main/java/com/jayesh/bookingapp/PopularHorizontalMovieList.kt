@@ -129,6 +129,7 @@ fun PopularMovieCard(movie: PopulateMovie) {
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
                 )
+                
                 Text(
                     text = movie.overview,
                     fontSize = 11.sp, // Slightly smaller
